@@ -1,0 +1,26 @@
+# AI Programming Tool - Environment Requirements
+# Python 3.8+ required
+
+# Core GUI Framework
+PyQt5==5.15.9
+
+# Syntax Highlighting Support
+Pygments==2.17.2
+
+# Optional: Enhanced Code Editing Features
+# QScintilla==2.14.1  # Uncomment if advanced code editing features are needed
+
+# Development & Testing
+pytest==7.4.3
+pytest-qt==4.2.0
+
+# Utilities
+typing-extensions==4.8.0
+
+# Note: 
+# - Install with: pip install -r requirements.txt
+# - For conda users: conda install -c anaconda pyqt pygments
+# - Ensure Qt5 is properly installed on your system
+# - On Ubuntu/Debian: sudo apt-get install python3-pyqt5
+# - On macOS: brew install pyqt
+# - On Windows: PyQt5 wheels include Qt binaries
